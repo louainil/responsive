@@ -1,0 +1,123 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .navbar {
+            background-color: #2c3e50;
+        }
+        .navbar-brand {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #e74c3c !important;
+        }
+        .nav-link {
+            color: #ecf0f1 !important;
+            margin-left: 20px;
+            transition: color 0.3s;
+        }
+        .nav-link:hover {
+            color: #e74c3c !important;
+        }
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('pic/madie-hamilton-Q9yr-cvJr30-unsplash.jpg') center/cover;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgb(255, 255, 255);
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+        .btn-primary {
+            background-color: #e74c3c;
+            border: none;
+            padding: 12px 30px;
+            font-size: 1.1rem;
+        }
+        .btn-primary:hover {
+            background-color: #c0392b;
+        }
+        .menu-section {
+            padding: 60px 0;
+            background-color: #f8f9fa;
+        }
+        .menu-section h2 {
+            text-align: center;
+            margin-bottom: 50px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .menu-card {
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: none;
+            margin-bottom: 30px;
+        }
+        .menu-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        .menu-card img {
+            height: 250px;
+            object-fit: cover;
+        }
+        .menu-card .card-body {
+            padding: 20px;
+        }
+        .menu-card .card-title {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .price {
+            color: #e74c3c;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .about-section {
+            padding: 60px 0;
+        }
+        .about-section h2 {
+            margin-bottom: 40px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .about-section img {
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .contact-section {
+            padding: 60px 0;
+            background-color: #f8f9fa;
+        }
+        .contact-section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .form-control {
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 30px 0;
+            text-align: center;
+        }
+        .social-icons a {
+            color: #ecf0f1;
+            margin: 0 10px;
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+        .social-icons a:hover {
+            color: #e74c3c;
+        }
+        
